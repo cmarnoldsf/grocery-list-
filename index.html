@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Your Grocery List</title>
+		<link rel="stylesheet" href="main.css" type="text/css">
+		<script src="http://code.jquery.com/jquery.min.js"></script>
+		<script src="app.js"></script>
+	</head>
+	<body>
+		<div class="background">
+			<article class="list">
+				<section class="title">
+					<p>Groceries!</p>
+				</section>
+				<div>
+				<div class='paper'>
+					<form>
+					<input type="text" name="grocery" value="" class='texts' maxlength='20'>
+					<button type= 'submit' class ='button'>Add</button>
+					<button class='delete' value='Delete'>Clear List</button>
+					</form>
+				</div>
+				
+				<ul class='items'>
+						<li>Almond Milk<br></li>
+						<li>Bread<br></li>
+						<li>Coffee<br></li>
+						<li>Strawberries<br></li>
+				</ul>
+		</div>
+				<section class='instructions'><p>Click on an item to cross it off!</p></section>
+				<section class="tack"></section>
+			</article>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,88 @@
+* {
+	color: grey;
+	font-family: helvetica;
+}
+
+.background {
+	min-width: 1060px;
+	min-height: 860px;
+	background: grey;
+	padding: 20px;
+	border: 2px solid black;
+}
+
+.list {
+	background: url('https://dl.dropboxusercontent.com/u/263968982/home-writing-paper-thumb.jpg');
+	width: 450px;
+	text-align: center;
+	min-width: 500px;
+	min-height: 700px;
+	margin-left: 400px;
+	padding-bottom: 100px;
+}
+
+.title {
+	text-align: center;
+    font-family: anson;
+    font-size: 42px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.paper {
+	position: absolute;
+	top: 156px;
+	left: 440px;
+	width: 550px;
+}
+
+button {
+	font-family: helvetica;
+	color: blue;
+	font-weight: bold;
+	height: 22px;
+	background-color: #E0E0E0;
+}
+
+form {
+	display: block;
+	margin-top: 0em;
+}
+
+input { 
+	height: 16px;
+	width: 260px;
+	float: left;
+	border: 2px dashed blue;
+}
+
+.items {
+	margin-top: 95px;
+}
+
+ul {
+	text-align: center;
+	position: absolute;
+	top: 118px;
+	left: 420px;
+	margin-bottom: 10px;
+	min-width: 300px;
+	text-transform: capitalize;
+}
+
+li {
+	padding-top: 1px;
+	text-align: left;
+	font-family: anson;
+	font-style: italic;
+}
+
+.instructions {
+	margin-top: 78px;
+	margin-left: 20px;
+	font-family: monospace;
+}
+
+p {
+	font-family: monospace;
+}
