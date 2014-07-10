@@ -86,3 +86,9 @@ li {
 p {
 	font-family: monospace;
 }
+
+.complete {
+	text-decoration: line-through;
+	color: black;
+	list-style: none;
+}
